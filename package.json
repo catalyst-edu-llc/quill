@@ -1,6 +1,6 @@
 {
-  "name": "quill",
-  "version": "2.0.0-dev.3",
+  "name": "@catalyst-edu-llc/quill",
+  "version": "1.0.0",
   "description": "Your powerful, rich text editor",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "http://quilljs.com",
@@ -85,10 +85,13 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quilljs/quill"
+    "url": "https://github.com/catalyst-edu-llc/quill.git"
   },
   "bugs": {
-    "url": "https://github.com/quilljs/quill/issues"
+    "url": "https://github.com/catalyst-edu-llc/quill/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "eslintConfig": {
     "extends": [
